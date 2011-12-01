@@ -1,0 +1,27 @@
+#page, #site_bar_content, #logo {
+  width: 720px;
+  margin: 0px auto;
+}
+
+#header #menu, #body_content_title, #page_container > footer {
+  display: none ;
+}
+
+#header {
+  background: black ;
+  padding: 10px 0 10px 0 ;
+}
+
+body {
+  font-family: Arial ;
+  margin: 0px ;
+  padding: 0px ;
+}
+
+.carousel-image {
+  text-align: center ;
+}
+
+.jcarousel-item div {
+  padding-top: 20px ;
+}

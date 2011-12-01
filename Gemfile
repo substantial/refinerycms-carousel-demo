@@ -7,7 +7,6 @@ gem 'rails', '3.1.3'
 
 gem 'sqlite3'
 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -29,11 +28,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
-
-group :test do
-  # Pretty printed test output
-  gem 'turn', '0.8.2', :require => false
-end
 
 gem "refinerycms", :git => "git://github.com/resolve/refinerycms.git"
 gem "refinerycms-carousel", :path => "../refinerycms-carousel"
