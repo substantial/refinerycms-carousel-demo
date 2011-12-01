@@ -3,7 +3,7 @@ RefineryCMS Carousel Demo
 
 This is a sample Refinery application for demonstrating the refinerycms-carousel gem.
 
-== Credits
+## Credits
 
 * Portions of the style are from the [jcarousel project's tango theme](http://sorgalla.com/projects/jcarousel/).
 * The arrow images are from the [Tango Icon Library](http://tango.freedesktop.org/Tango_Icon_Library).
