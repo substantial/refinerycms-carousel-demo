@@ -11,7 +11,7 @@ module Refinery
                 :position => (page_position += 1)})
     home_page.parts.create({
                   :title => "Body",
-                  :body => <<-BODY
+                  :body => <<-BODY,
 <p>This is a demo Refinery CMS application for the refinerycms-carousel gem.</p>\r\n<p>You can look at the source for <a title=\"http://github.com/substantial/refinerycms-carousel\" href=\"http://github.com/substantial/refinerycms-carousel\">refinerycms-carousel</a> and <a title=\"http://github.com/substantial/refinerycms-carousel-demo\" href=\"http://github.com/substantial/refinerycms-carousel-demo\">this demo application</a> on github.</p>
 BODY
                   :position => 0
