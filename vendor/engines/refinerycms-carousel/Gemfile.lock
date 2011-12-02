@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/resolve/refinerycms
-  revision: abfb4afffd35314dd4642587b6caa19c3e191072
+  revision: c3c4f4a1aa60be4e10026ea3e0a8e2a7ff69ef5c
   specs:
     refinerycms (2.0.0)
       bundler (~> 1.0)
@@ -153,8 +153,8 @@ GEM
     jquery-rails (1.0.19)
       railties (~> 3.0)
       thor (~> 0.14)
-    json (1.6.3)
-    json_pure (1.6.3)
+    json (1.6.2)
+    json_pure (1.6.2)
     launchy (2.0.5)
       addressable (~> 2.2.6)
     mail (2.3.0)
@@ -211,7 +211,7 @@ GEM
       rspec (~> 2.7.0)
     ruby-progressbar (0.0.10)
     rubyzip (0.9.5)
-    sass (3.1.11)
+    sass (3.1.10)
     sass-rails (3.1.5)
       actionpack (~> 3.1.0)
       railties (~> 3.1.0)
