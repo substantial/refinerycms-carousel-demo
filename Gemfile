@@ -36,7 +36,7 @@ gem "heroku"
 gem "refinerycms", :git => "git://github.com/resolve/refinerycms.git"
 
 #gem "refinerycms-carousel", :path => "../refinerycms-carousel"
-gem "refinerycms-carousel", :path => "vendor/engines"
+gem "refinerycms-carousel", '1.0', :path => "vendor/engines"
 
  #  group :development, :test do
   #    gem 'refinerycms-testing', '~> 2.0'
