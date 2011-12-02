@@ -29,8 +29,15 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+gem 'therubyracer'
+
+gem "heroku"
+
 gem "refinerycms", :git => "git://github.com/resolve/refinerycms.git"
-gem "refinerycms-carousel", :path => "../refinerycms-carousel"
+
+#gem "refinerycms-carousel", :path => "../refinerycms-carousel"
+gem "refinerycms-carousel", :path => "vendor/engines"
+
  #  group :development, :test do
   #    gem 'refinerycms-testing', '~> 2.0'
   #  end
