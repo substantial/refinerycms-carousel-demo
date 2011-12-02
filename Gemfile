@@ -36,6 +36,8 @@ gem 'jquery-rails'
 
 gem 'therubyracer'
 
+gem 'unicorn'
+
 gem "heroku"
 
 gem "refinerycms", :git => "git://github.com/resolve/refinerycms.git"
