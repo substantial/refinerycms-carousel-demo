@@ -58,6 +58,3 @@ RefinerycmsCarouselDemo::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 end
-
-# Try manually activating S3 in prod.
-Refinery.s3_backend = true
