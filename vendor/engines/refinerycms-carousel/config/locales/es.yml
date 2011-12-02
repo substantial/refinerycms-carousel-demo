@@ -1,0 +1,23 @@
+es:
+  refinery:
+    plugins:
+      carousels:
+        title: Carousels
+#        article: masculino/femenino
+    admin:
+      carousels:
+        actions:
+          create_new: Crear nuevo carousel
+          reorder: Reordenar carousels
+          reorder_done: Reordenación de carousels completada
+        records:
+          title: Carousels
+          sorry_no_results: Lo siento, no hay resultados
+          no_items_yet: No hay carousels todavía. Pulsa en "Crear nuevo Carousel" para crear tu primer carousel.
+        carousel:
+          view_live_html: Ver este carousel como abierto al público <br/><em>(abre en ventana nueva)</em>
+          edit: Editar este carousel
+          delete: Borrar este carousel para siempre
+    carousels:
+      show:
+        other: Otros carousels

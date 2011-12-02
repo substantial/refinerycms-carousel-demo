@@ -1,0 +1,21 @@
+<ul id="carousel">
+  <% parts.each do |part| %>
+    <li>
+      <%= yield(part) %>
+    </li>
+  <% end %>
+</ul>
+
+<% content_for :javascripts do %>
+  <%= javascript_include_tag 'jquery', 'jquery/jquery.jcarousel' %>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+      jQuery('#carousel').jcarousel({
+        visible: 1,
+        scroll: 1,
+        wrap: 'circular',
+      });
+    });
+  </script>
+<% end %>

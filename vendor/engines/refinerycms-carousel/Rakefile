@@ -1,0 +1,33 @@
+#!/usr/bin/env rake
+begin
+  require 'bundler/setup'
+rescue LoadError
+  puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
+end
+
+ENGINE_PATH = File.dirname(__FILE__)
+APP_RAKEFILE = File.expand_path("../spec/dummy/Rakefile", __FILE__)
+
+if File.exists?(APP_RAKEFILE)
+  load 'rails/tasks/engine.rake'
+end
+
+require "refinerycms-testing"
+Refinery::Testing::Railtie.load_tasks
+Refinery::Testing::Railtie.load_dummy_tasks(ENGINE_PATH)
+
+require 'rspec/core/rake_task'
+
+desc "Run specs"
+RSpec::Core::RakeTask.new
+
+# XXX: Couldn't figure out how to do this with a rake file task. :(
+task :setup do
+  unless File.exists?('spec/dummy/')
+    Rake::Task['refinery:testing:dummy_app'].invoke
+    # revert back to project root
+    Dir.chdir ENGINE_PATH
+  end
+end
+
+task :default => [:setup, :spec]

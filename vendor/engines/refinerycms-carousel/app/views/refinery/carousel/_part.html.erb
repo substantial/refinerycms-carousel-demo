@@ -1,0 +1,13 @@
+<% if part.image.present? %>
+  <div class="carousel-image">
+    <%= image_tag part.image.url %>
+  </div>
+<% end %>
+
+<div class="carousel-title">
+  <%= part.title %>
+</div>
+
+<div class="carousel-body">
+  <%= raw part.body %>
+</div>

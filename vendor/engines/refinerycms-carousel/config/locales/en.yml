@@ -1,0 +1,20 @@
+en:
+  refinery:
+    plugins:
+      refinery_carousel:
+        title: Carousel
+        description: Add parts to the carousel.
+    admin:
+      carousel:
+        parts:
+          actions:
+            create_new: Add New Carousel Part
+            reorder: Reorder Carousel Parts
+            reorder_done: Done Reordering Carousel Parts
+          records:
+            title: Carousel Part
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Carousel Parts yet. Click "Add New Carousel Part" to add your first carousel part.
+          part:
+            edit: Edit this carousel part
+            delete: Remove this carousel part forever

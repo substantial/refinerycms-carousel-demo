@@ -1,0 +1,22 @@
+lolcat:
+  refinery:
+    plugins:
+      carousels:
+        title: Carousels
+    admin:
+      carousels:
+        actions:
+          create_new: CREATE NEW Carousel
+          reorder: REORDR Carousels
+          reorder_done: DUN REORDERIN Carousels
+        records:
+          title: Carousels
+          sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+          no_items_yet: THAR R NO Carousels YET. CLICK "CREATE NEW Carousel" 2 ADD UR FURST carousel.
+        carousel:
+          view_live_html: VIEW DIS carousel LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+          edit: EDIT DIS carousel
+          delete: REMOOV DIS carousel FOREVR
+    carousels:
+      show:
+        other: OTHR Carousels

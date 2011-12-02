@@ -1,0 +1,10 @@
+source "http://rubygems.org"
+
+gemspec
+
+group :development, :test do
+  gem 'refinerycms', :git => "https://github.com/resolve/refinerycms"
+  gem 'refinerycms-testing', :git => "https://github.com/resolve/refinerycms"
+
+  gem 'sqlite3'
+end

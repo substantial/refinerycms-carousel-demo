@@ -1,0 +1,22 @@
+nb:
+  refinery:
+    plugins:
+      carousels:
+        title: Carousels
+    admin:
+      carousels:
+        actions:
+          create_new: Lag en ny Carousel
+          reorder: Endre rekkefølgen på Carousels
+          reorder_done: Ferdig å endre rekkefølgen Carousels
+        records:
+          title: Carousels
+          sorry_no_results: Beklager! Vi fant ikke noen resultater.
+          no_items_yet: Det er ingen Carousels enda. Klikk på "Lag en ny Carousel" for å legge til din første carousel.
+        carousel:
+          view_live_html: Vis hvordan denne carousel ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+          edit: Rediger denne carousel
+          delete: Fjern denne carousel permanent
+    carousels:
+      show:
+        other: Andre Carousels
