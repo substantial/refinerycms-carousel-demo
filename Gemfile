@@ -43,6 +43,8 @@ gem 'thin'
 
 gem "heroku"
 
+gem 'fog'
+
 gem "refinerycms", :git => "git://github.com/resolve/refinerycms.git"
 
 #gem "refinerycms-carousel", :path => "../refinerycms-carousel"
