@@ -34,9 +34,12 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem 'therubyracer'
+# Linux needs a javascript runtime...
+group :test, :development do
+  gem 'therubyracer'
+end
 
-gem 'unicorn'
+gem 'thin'
 
 gem "heroku"
 
