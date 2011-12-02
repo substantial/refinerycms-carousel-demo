@@ -33,7 +33,7 @@
  */
 .jcarousel-next-horizontal {
     position: absolute;
-    top: 150px;
+    top: 250px;
     right: 5px;
     width: 32px;
     height: 32px;
@@ -58,7 +58,7 @@
 
 .jcarousel-prev-horizontal {
     position: absolute;
-    top: 150px;
+    top: 250px;
     left: 5px;
     width: 32px;
     height: 32px;
